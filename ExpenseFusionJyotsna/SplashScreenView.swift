@@ -39,7 +39,7 @@ struct SplashScreenView: View {
                     .opacity(imageOpacity)
                     .frame(width: 500, height: 700)
                     .clipShape(Circle()) // Make the image circular
-                    //.offset(x: 1) // Slight offset to prevent overlapping with the system image
+                    
             }
             .scaleEffect(scale) // Apply scale effect to the entire ZStack
         }
